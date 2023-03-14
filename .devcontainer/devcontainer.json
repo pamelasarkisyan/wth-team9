@@ -18,7 +18,12 @@
 			]
 		}
 	},
-
+	"features": {
+		// Uncomment the below to install Azure CLI
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+		  "version": "latest"
+		}
+	  },
 	// Use 'portsAttributes' to set default properties for specific forwarded ports. 
 	// More info: https://containers.dev/implementors/json_reference/#port-attributes
 	"portsAttributes": {
